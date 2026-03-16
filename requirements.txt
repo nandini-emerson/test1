@@ -1,0 +1,17 @@
+
+openai>=2.6.0
+anthropic
+python-dotenv
+pydantic
+asyncio
+aiohttp>=3.11.0
+rich
+fastapi
+requests
+redis
+email-validator
+python-dateutil
+loguru
+tenacity
+cryptography
+uvicorn
