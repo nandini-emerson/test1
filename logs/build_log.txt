@@ -1,0 +1,37 @@
+2026-03-16 10:51:03 | INFO     | build_process:802 | Starting build process...
+2026-03-16 10:51:03 | INFO     | build_process:997 | Initializing code generation agent...
+2026-03-16 10:51:03 | INFO     | build_process:1014 | Generating agent code...
+2026-03-16 10:51:03 | INFO     | modules.builder.code_generation_agent:48 | Starting code generation process
+2026-03-16 10:51:03 | INFO     | modules.builder.code_generation_agent:49 | Generating components: main_agent_code, config_code, requirements_code, readme_code, test_code, deployment_config
+2026-03-16 10:51:03 | INFO     | modules.builder.code_generation_agent:56 | Generating main agent code...
+2026-03-16 10:51:03 | INFO     | modules.builder.code_generation_agent:120 | Attempting to generate main agent code using LLM
+2026-03-16 10:51:36 | INFO     | modules.builder.code_generation_agent:132 | Main agent code successfully generated using LLM
+2026-03-16 10:51:36 | INFO     | modules.builder.code_generation_agent:62 | Main agent code generated successfully: 29916 characters
+2026-03-16 10:51:36 | INFO     | modules.builder.code_generation_agent:65 | Generating configuration code...
+2026-03-16 10:51:36 | INFO     | modules.builder.code_generation_agent:160 | Attempting to generate config code using LLM
+2026-03-16 10:51:45 | INFO     | modules.builder.code_generation_agent:193 | Config code successfully generated using LLM
+2026-03-16 10:51:45 | INFO     | modules.builder.code_generation_agent:71 | Configuration code generated successfully: 4684 characters
+2026-03-16 10:51:45 | INFO     | modules.builder.code_generation_agent:74 | Generating requirements.txt...
+2026-03-16 10:51:45 | INFO     | modules.builder.code_generation_agent:227 | Attempting to generate requirements.txt using LLM analysis
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:239 | Requirements.txt successfully generated using LLM
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:80 | Requirements code generated successfully: 169 characters
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:83 | Generating README.md...
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:255 | Generating README.md using template
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:272 | README.md generated successfully
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:85 | README code generated successfully: 853 characters
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:88 | Generating test code...
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:280 | Generating test code using template
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:296 | Test code generated successfully
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:90 | Test code generated successfully: 1067 characters
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:93 | Generating deployment configuration...
+2026-03-16 10:51:47 | INFO     | modules.builder.code_generation_agent:304 | Attempting to generate deployment config using LLM
+2026-03-16 10:51:50 | INFO     | modules.builder.code_generation_agent:332 | Deployment config successfully generated using LLM
+2026-03-16 10:51:50 | INFO     | modules.builder.code_generation_agent:99 | Deployment config generated successfully: 975 characters
+2026-03-16 10:51:50 | INFO     | modules.builder.code_generation_agent:101 | Code generation process completed successfully
+2026-03-16 10:51:50 | INFO     | build_process:1057 | Code validation skipped for build (no guardrails/content safety/credentials checks)
+2026-03-16 10:51:50 | INFO     | build_process:1070 | Saving generated code files...
+2026-03-16 10:51:51 | INFO     | build_process:1160 | Copying prebuilt modules: ['llm']
+2026-03-16 10:51:51 | INFO     | modules.builder.code_generation_agent:377 | Copying 1 prebuilt module(s): ['llm']
+2026-03-16 10:51:51 | INFO     | modules.builder.code_generation_agent:388 | Successfully copied 9 files from 1 module(s)
+2026-03-16 10:51:51 | INFO     | build_process:1172 | Successfully copied 9 files from prebuilt modules
+2026-03-16 10:51:51 | INFO     | build_process:1287 | Build completed successfully!
